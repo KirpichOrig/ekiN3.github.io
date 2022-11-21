@@ -1,0 +1,152 @@
+html {
+    background-image: url(../images/backimg3.jpg);
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+.link {
+    font: 13px Hind, sans-serif;
+    color: #fff;
+}
+.logo {
+    font: 20px Hind, sans-serif;
+    text-decoration: none;
+    color:#fff;
+}
+.brand {
+    font: 50px Hind, sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 20%;
+    text-shadow: 3px 0 3px #000;
+}
+.brand_discription {
+    margin-top: -15px;
+    margin-bottom: 60px;
+    font: 15px Hind, sans-serif;
+    color: gray;
+    text-align: center;
+    text-shadow: 2px 0 2px #000;
+}
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.button {
+    display: inline-block;
+    padding: 15px 45px;
+    user-select: none;
+    line-height: 1.5;
+    font: 20px Hind, sans-serif;
+}
+.button-color {
+    color: white;
+    background-color: orange;
+    border: 1px solid orange;
+}
+.button-color:hover {
+    opacity: .9;
+    cursor: pointer;
+}
+.button-color:focus {
+    outline: none;
+}
+/*
+================
+Основа
+================
+*/
+.main {
+    margin-top: 359px;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 550px;
+    font: 20px Hind, sans-serif;
+    background-color: #f5f5f5;
+}
+.nike {
+    margin-top: 520px;
+    text-align: center;
+    font: 30px Hind, sans-serif;
+    color: #000;
+}
+.nike-discriprion {
+    margin: 0 auto;
+    text-align: center;
+    font: 15px Hind, sans-serif;
+    width: 600px;
+    margin-bottom: 20px;
+    color: gray;
+}
+.lebron {
+    display: flex;
+    justify-content: center;
+}
+.section {
+    margin: 50px 0 0 0;
+}
+.name {
+    display: flex;
+    justify-content: center;
+    font: 30px Hind, sans-serif;
+    margin: 0 0 15px 0;
+}
+.discription {
+    text-align: center;
+    font: 15px Hind, sans-serif;
+    color: gray;
+}
+.clothes {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 150px;
+}
+.clothes_two {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    padding: 0 150px;
+}
+.footer {
+    height: 200px;
+    background-color: #000;
+    margin-bottom: 20px;
+}
+.footer-info {
+    text-align: center;
+    padding: 100px 0 0 0;
+    color: white;
+    font: 15px Hind, sans-serif;
+}
+.up {
+    display: flex;
+    justify-content: right;
+    margin: 55px 10px 0 0;
+    color: white;
+    font: 14px Hind, sans-serif;
+}
+.map {
+    padding: 40px 0;
+    text-align: center;
+}
+.container-map {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.address {
+    text-align: center;
+    font: 30px Hind, sans-serif;
+}
+.address-discription {
+    font: 15px Hind, sans-serif;
+    color: gray;
+}

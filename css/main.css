@@ -1,0 +1,92 @@
+html {
+    background-color: #f5f5f5;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+.move{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    padding: 0 15px 0 15px;
+    background-color: white;
+}
+.link {
+    font: 14px Hind, sans-serif;
+    padding: 0 5px;
+    color: #000;
+}
+.main {
+    margin: 25px 0 25px 0;
+    text-align: center;
+    font: 40px Hind, sans-serif;
+}
+.name {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 65px;
+    margin-bottom: 35px;
+}
+.name_two {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 65px;
+    margin-bottom: 55px;
+}
+.clothes-name {
+    text-align: right;
+    font: 15px Hind, sans-serif;
+}
+.clothes-cash {
+    display: flex;
+    justify-content: space-between;
+    font: 15px Hind, sans-serif;
+}
+.stock {
+    border: 1px solid #31b5ff;
+    border-radius: 2px;
+    color: #31b5ff;
+    padding: 2px 10px;
+}
+.footer {
+    height: 200px;
+    background-color: #000;
+    margin-bottom: 20px;
+}
+.footer-info {
+    text-align: center;
+    padding: 100px 0 0 0;
+    color: white;
+    font: 15px Hind, sans-serif;
+}
+.up {
+    display: flex;
+    justify-content: right;
+    margin: 55px 10px 0 0;
+    color: white;
+    font: 14px Hind, sans-serif;
+}
+/*
+==================
+Кроссовки
+==================
+*/
+.shoes {
+    height: 420px;
+    width: 535px;
+}
+/*
+==================
+Верх, рюкзаки, кепки
+==================
+*/
+.clothes {
+    height: 600px;
+    width: 435px;
+}
